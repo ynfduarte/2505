@@ -1,0 +1,310 @@
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+
+  header {
+    background-color: #333;
+    color: #fff;
+
+    }
+
+  .BemVindo{
+  color: goldenrod;
+}
+
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    margin-top: -5%;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 1%;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  #banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 4%;
+    text-align: center;
+  }
+  
+  #banner h2 {
+    font-size: 100%;
+    margin-bottom: 5%;
+  }
+  
+  .button {
+    background-color: goldenrod;
+    color: #fff;
+    padding: 1% 2%;
+    text-decoration: none;
+  }
+  
+
+  #destaques {
+    background-color: #f0f0f0;
+    padding: 1%;
+    margin-top: -3%;
+  }
+  
+  .carro {
+    background-color: #fff;
+    padding: 5%;
+    margin-bottom: 2%;
+    width: 50%;
+    height: 100%;
+  }
+  
+  .carro img {
+    max-width: 100%;
+  }
+  
+  .carro h3 {
+    margin-top: 10%;
+  }
+  
+  .inicio{
+    color: black;
+    height: 2%;
+    margin-top: -2%;
+  }
+
+  .GolfInicial{
+    width: 50%;
+    height: 35%;
+  }
+  .PreoGolf{
+  color: red;
+  }
+  .bmw340i{
+    width: 50%;
+    height: 35%;
+    color: #f00;
+  }
+
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 6%;
+  }
+  
+  .sidenav a {
+      padding: 8% 8% 8% 2%;
+    text-decoration: none;
+    font-size: 150%;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .Porsche911{
+  width: 75%;
+  height: 125%; 
+  }
+  .Si{
+    width: 75%;
+    height: 95%;
+  }
+  .opala{
+    width: 75%;
+    height: 50%;
+  }
+
+  .logozé{
+    width: 18%;
+    margin-left: -88%;
+    margin-top: -6%;
+  }
+  @media(max-width: 700px){
+    .logozé{
+      width: 35%;
+      margin-left: -77%;
+    }
+  }
+
+
+  
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 10%;
+
+}
+
+.mySlides {
+  display: none;
+  }
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 40px;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+.bodyContato {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20%;
+}
+
+.h1Contato {
+  color: #333;
+}
+
+.labelContato {
+  display: block;
+  margin-top: 2%;
+}
+
+.inputContato[type="text"],
+.inputContato[type="email"],
+.textareaContato {
+  width: 90%;
+  padding: 2%;
+}
+
+.inputContato[type="submit"] {
+  padding: 1% 5%;
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.inputContato[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.success-messageContato {
+  color: green;
+  margin-top: 10px;
+}
+
+.error-messageContato {
+  color: red;
+  margin-top: 10px;
+}

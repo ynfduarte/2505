@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<center>
+        <header>
+        <h1 class="BemVindo">Bem-vindo a JR MOTORS</h1>
+        <a href="index.html"><img  class="logozé" src="img/JrMotors.png" alt=""></a>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="Carros.html">Carros</a></li>
+            <li><a href="Projeto.html">Projetos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <h1>Entre em Contato</h1>
+
+      <form id="contact-form">
+        <label class="labelContato" for="nome">Nome:</label>
+        <input class="inputContato" type="text" id="nome" name="nome" required>
+    
+        <label class="labelContato" for="email">Email:</label>
+        <input class="inputContato" type="email" id="email" name="email" required>
+    
+        <label class="labelContato" for="mensagem">Mensagem:</label>
+        <textarea class="textareaContato" id="mensagem" name="mensagem" required></textarea>
+    
+        <input class="inputContato" type="submit" value="Enviar">
+    
+        <p class="pContato" id="success-message" class="success-message" style="display: none;">Mensagem enviada com sucesso!</p>
+        <p class="pContato" id="error-message" class="error-message" style="display: none;">Ocorreu um erro ao enviar a mensagem. Por favor, tente novamente.</p>
+      </form>
+
+      <footer>
+        <p>&copy; JR MOTORS. <a href="https://goo.gl/maps/LdXpfkofb4bNx75m7">Av. Rosário Congro, 2485 - Jardim Primaveril, Três Lagoas - MS</a> Todos os direitos reservados.</p>
+      </footer>
+</center>
+</body>
+<script src="js/JavaScript.js"></script>
+</html>
